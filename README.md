@@ -1,14 +1,11 @@
 *Kayla Day*
 *SDEV 140 Final Project*
-*July, 2024*
+*July 28, 2024*
 
 # Required installs for working environment
 *Install these by opening the terminal, typing each line below, and pressing enter on your keyboard*
     pip install sqlite3 *database*
     pip install Pillow *PIL for photo library and functions*
-
-    pip3 install opencv-python numpy imutils (possibly, here just incase)
-    pip3 install webcolors scipy (not required yet but probably will be)
 
 # Versions used in this program
     IDE: Visual Studio Code
@@ -19,7 +16,6 @@
         Version: 10.4.0
         Summary: Python Imaging Library (Fork)
         Home-page: https://python-pillow.org
-        Author: 
         Author-email: "Jeffrey A. Clark" <aclark@aclark.net>
         License: HPND
     *SQLite:*
@@ -30,3 +26,7 @@
 *Database (SQLite)*
 https://docs.python.org/3/library/sqlite3.html
 https://www.sqlitetutorial.net/sqlite-create-table/
+
+# Output
+    The final output, prints to the terminal for now. This allows me to test that the submit order
+    button saves the selected options as well as all the values entered by the customer. 
